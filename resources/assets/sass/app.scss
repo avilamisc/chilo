@@ -1,0 +1,85 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.app-form > div{
+  margin-top: 1em;
+}
+
+.card.padding{
+  padding: 1em;
+}
+
+.shortText{
+  width: 100px;
+}
+
+.displayBlock{
+  display: block;
+}
+
+.actions{
+  margin-top: 1em;
+}
+
+.text-center .pagination{
+  justify-content: center;
+}
+
+.big-checkbox {width: 30px; height: 30px;}
+
+#loading-div-background{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+#loading-div{
+    width: 760px;
+    height: 200px;
+    background-color: #fff;
+    border: 5px solid #1468b3;
+    text-align: center;
+    color: #202020;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -150px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    behavior: url("/css/pie/PIE.htc"); /* HANDLES IE */
+}
+
+.active-item-menu{
+  border-bottom: solid deeppink;
+  font-weight: bold !important;
+}
+
+.pointerElement{
+  cursor: pointer;
+}
+
+.survey-item-active{
+  color: orange;
+}
+
+.hideContainer{
+  display: none;
+}
